@@ -1,7 +1,7 @@
 	
 	function GetIPAdr()
     {
-	    navigator.clipboard.writeText('zalegajo.maxc.pl');
+	    navigator.clipboard.writeText('bzzyczek.bhsv.pl');
     }
 	
 	function HideALL()
@@ -25,20 +25,6 @@
 
 	window.onload = function() 
 	{
-		
-		var rawFile = new XMLHttpRequest();
-    		rawFile.open("GET", "http://zalegajo.gameclan.pl/data.txt", false);
-    		rawFile.onreadystatechange = function ()
-    		{
-        	if(rawFile.readyState === 4)
-        	{
-            	if(rawFile.status === 200 || rawFile.status == 0)
-            	{
-                var data1 = rawFile.responseText;
-		console.log(data1);
-           	 }
-       		 }
-   		 }
 		
 		let date_1 = new Date('04/10/2023');
 		let date_2 = new Date();
