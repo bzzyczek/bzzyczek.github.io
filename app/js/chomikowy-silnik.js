@@ -26,7 +26,7 @@
 	window.onload = function() 
 	{
 		
-		let date_1 = new Date('03/08/2024');
+		let date_1 = new Date('07/06/2024');
 		let date_2 = new Date();
 		
 		let difference = date_1.getTime() - date_2.getTime();
